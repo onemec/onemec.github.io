@@ -164,13 +164,13 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Etsy */
-.button.button-etsy {
+/* Resume */
+.button.button-resume {
   color: #ffffff;
   background-color: #F45800;
 }
-.button.button-etsy:hover,
-.button.button-etsy:focus {
+.button.button-resume:hover,
+.button.button-resume:focus {
   filter: brightness(90%);
 }
 
