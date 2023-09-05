@@ -3,126 +3,132 @@
 
 <head>
 
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Oliver Nemec</title>
-  <meta name="description" content="Personal site for Oliver Nemec">
-  <meta name="author" content="Oliver Nemec">
+    <!-- Page Information
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Oliver Nemec</title>
+    <meta content="Personal site for Oliver Nemec" name="description">
+    <meta content="Oliver Nemec" name="author">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="css/normalize.css" rel="stylesheet">
 
     <!-- Themes:
             Auto:   css/skeleton-auto.css
             Light:  css/skeleton-light.css
             Dark:   css/skeleton-dark.css
      -->
-    <link rel="stylesheet" href="css/skeleton-auto.css">
+    <link href="css/skeleton-auto.css" rel="stylesheet">
 
     <!-- Brand Styles -->
-    <link rel="stylesheet" href="css/brands.css">
+    <link href="css/brands.css" rel="stylesheet">
 
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/littlelink.png">
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="images/littlelink.png" rel="icon" type="image/png">
 
 </head>
 
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
     <div class="row">
-      <div class="column" style="margin-top: 10%">
+        <div class="column" style="margin-top: 10%">
 
-        <!-- 
+            <!--
 
-          ## Getting Started with LittleLink
+              ## Getting Started with LittleLink
 
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+              This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
 
-          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+              You can add your own brand or others brands you may need in the `css/brands.css` file.
 
-          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+              You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
 
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+              Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
 
-          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+              Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
 
-          Edit the "Short Bio" section tell users about yourself or your brand.
+              Edit the "Short Bio" section tell users about yourself or your brand.
 
-        -->
+            -->
 
-        <!-- Your Image Here -->
-        <img src="images/avatar.png" srcset="images/avatar.png" alt="Profile picture" width="200px">
+            <!-- Your Image Here -->
+            <img alt="Profile picture" src="images/avatar.png" srcset="images/avatar.png" width="200px">
 
-        <!-- Title -->
-        <h1>Oliver Nemec</h1>
+            <!-- Title -->
+            <h1>Oliver Nemec</h1>
 
-        <!-- Short Bio -->
-        <p>Student at Northeastern University<br>
-          Computer Science (AI/ML)<br>
-          +3 yrs in DevOps and SWE<br>
-          Graduating Spring 2024 with a B.S.</p>
+            <!-- Short Bio -->
+            <p>Student at Northeastern University<br>
+                Computer Science (AI/ML)<br>
+                +3 yrs in DevOps and SWE<br>
+                Graduating Spring 2024 with a B.S.</p>
 
-        <!--
+            <!--
 
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+              ## Breaking down <a> attributes:
 
-          2.) Replace the # in href="#" with the desired target URL for the button.
+              1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+              The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+              If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
 
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+              2.) Replace the # in href="#" with the desired target URL for the button.
 
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+              3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
 
-          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
+              4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+              This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
 
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+              5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
 
-          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+              ## Breaking down the <img> attributes:
 
-          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree. 
-          This can improve the experience for assistive technology users by hiding what is essentially duplicated
+              1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
 
-        -->
+              2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
+              Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
 
-        <!-- GitHub -->
-        <a class="button button-github" href="https://github.com/onemec" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/github.svg" alt="">GitHub</a><br>
+              3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree.
+              This can improve the experience for assistive technology users by hiding what is essentially duplicated
 
-        <!-- LinkedIn -->
-        <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">LinkedIn</a><br>
+            -->
 
-        <!-- Generic Email -->
-        <a class="button button-default" href="mailto:nemec.o@northeastern.edu" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/generic-email.svg" alt="">Email</a><br>
+            <!-- GitHub -->
+            <a class="button button-github" href="https://github.com/onemec" rel="noopener" role="button"
+               target="_blank"><img alt="" class="icon" src="images/icons/github.svg">GitHub</a><br>
 
-        <!-- Resume -->
-        <a class="button button-resume" href="./resume.pdf" target="_blank" rel="noopener"><img class="icon" src="images/icons/file.svg" alt="Resume Icon">Resume</a>
-        <br>
-        <br>
-        <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
-      </div>
+            <!-- LinkedIn -->
+            <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" rel="noopener" role="button"
+               target="_blank"><img alt="" class="icon" src="images/icons/linkedin.svg">LinkedIn</a><br>
+
+            <!-- Generic Email -->
+            <a class="button button-default" href="mailto:nemec.o@northeastern.edu" rel="noopener" role="button"
+               target="_blank"><img alt="" class="icon" src="images/icons/generic-email.svg">Email</a><br>
+
+            <!-- Resume -->
+            <a class="button button-resume" href="./resume.pdf" rel="noopener" target="_blank"><img alt="Resume Icon"
+                                                                                                    class="icon"
+                                                                                                    src="images/icons/file.svg">Resume</a>
+            <br>
+            <br>
+            <p>Build your own by forking <a href="https://littlelink.io" rel="noopener" target="_blank">LittleLink</a>.
+            </p>
+        </div>
     </div>
-  </div>
+</div>
 
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
