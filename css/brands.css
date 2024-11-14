@@ -80,8 +80,9 @@ button:hover,
 /* Default (this is great for your own brand color!) */
 .button.button-default {
   color: #ffffff;
-  background-color: #2457F5;
+  background-color: #0C6069;
 }
+
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%);
@@ -298,6 +299,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Resume */
+.button.button-resume {
+  color: #ffffff;
+  background-color: #6A4C80;
+}
+
+.button.button-resume:hover,
+.button.button-resume:focus {
+  filter: brightness(90%);
+}
+
 /* Dribbble */
 .button.button-dribbble {
   color: #000000;
@@ -383,7 +395,7 @@ button:hover,
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
-  border: 1px solid #FFFFFF;
+  border: 1px dotted #FFFFFF;
 }
 .button.button-github:hover,
 .button.button-github:focus {
