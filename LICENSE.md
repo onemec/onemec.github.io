@@ -1,5 +1,5 @@
 MIT License
-Copyright 2019-2021 Seth Cottle
+Copyright 2019-2024 Seth Cottle
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
