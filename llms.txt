@@ -1,0 +1,5 @@
+# Oliver Nemec
+
+Software Engineer II @ Datadog. Enterprise AI Platforms & Developer Productivity. B.S. in CS (AI/ML), Northeastern University.
+
+[Full Context](llms-full.txt)

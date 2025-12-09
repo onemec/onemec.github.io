@@ -1,0 +1,13 @@
+# Oliver Nemec
+
+**Software Engineer II @ [Datadog](https://www.datadoghq.com/)**
+🚀 Enterprise AI Platforms & Developer Productivity
+🖥️ B.S. in CS (AI/ML), Northeastern University
+💼 Distributed Systems, Cloud, LLMs
+
+## Links
+
+- [Resume](./OliverNemec_Resume.pdf)
+- [LinkedIn](https://www.linkedin.com/in/onemec/)
+- [GitHub](https://github.com/onemec)
+- [Email](mailto:oliver@onemec.org)

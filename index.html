@@ -2,70 +2,83 @@
 <html class="theme-auto" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>Oliver Nemec</title>
-    <link href="/images/favicon.png" rel="icon" type="image/x-icon"> <!-- Update this with your own favicon -->
+  <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+  <title>Oliver Nemec</title>
+  <link href="/images/favicon.png" rel="icon" type="image/x-icon"> <!-- Update this with your own favicon -->
 
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta content="Portfolio for Oliver Nemec." name="description">
+  <!-- Meta Description - Write a description (150-160 characters recommended) -->
+  <meta content="Portfolio for Oliver Nemec." name="description">
 
-    <!-- Keywords -->
-    <meta content="Oliver Nemec, Software Engineer, Developer" name="keywords">
+  <!-- Keywords -->
+  <meta content="Oliver Nemec, Software Engineer, Developer" name="keywords">
 
-    <!-- Canonical URL - Helps prevent duplicate content issues -->
-    <meta href="https://onemec.org" rel="canonical">
+  <!-- Canonical URL - Helps prevent duplicate content issues -->
+  <meta href="https://onemec.org" rel="canonical">
 
-    <!-- Author Information -->
-    <meta content="Oliver Nemec" name="author">
+  <!-- Author Information -->
+  <meta content="Oliver Nemec" name="author">
 
-    <!-- Stylesheets -->
-    <link href="css/reset.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/brands.css" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/brands.css" rel="stylesheet">
 
 
-    <!-- Structured Data -->
-    <script type="application/ld+json">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "ProfilePage",
-          "@id": "https://onemec.org/#webpage",
-          "headline": "Oliver Nemec",
-          "mainEntity": {
-            "@id": "https://onemec.org/#person"
-          }
+      "@type": "ProfilePage",
+      "dateCreated": "2025-12-08T12:00:00-05:00",
+      "dateModified": "2025-12-08T12:00:00-05:00",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Oliver Nemec",
+        "givenName": "Oliver",
+        "familyName": "Nemec",
+        "alternateName": "onemec",
+        "identifier": "onemec",
+        "email": "oliver@onemec.org",
+        "jobTitle": "Software Engineer II",
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Software Engineer II"
         },
-        {
-          "@type": "Person",
-          "@id": "https://onemec.org/#person",
-          "name": "Oliver Nemec",
-          "description": "Software Engineer II @ Datadog. Enterprise AI Platforms & Developer Productivity. B.S. in CS (AI/ML), Northeastern University.",
-          "image": "https://onemec.org/images/avatar.jpg",
-          "sameAs": [
-            "https://www.linkedin.com/in/onemec/",
-            "https://github.com/onemec"
-          ],
-          "worksFor": {
-            "@type": "Organization",
-            "name": "Datadog",
-            "url": "https://www.datadoghq.com/"
-          }
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "Northeastern University"
+        },
+        "knowsAbout": [
+          "Distributed Systems",
+          "Cloud",
+          "Large Language Models",
+          "Enterprise AI Platforms",
+          "Developer Productivity"
+        ],
+        "description": "Software Engineer II @ Datadog. Enterprise AI Platforms & Developer Productivity. B.S. in CS (AI/ML), Northeastern University.",
+        "image": "https://onemec.org/images/avatar.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/onemec/",
+          "https://github.com/onemec"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Datadog",
+          "url": "https://www.datadoghq.com/"
         }
-      ]
+      }
     }
     </script>
 </head>
 
 <body>
-    <!-- Primary Page Layout -->
-    <div class="container">
-        <div class="column">
-            <!--
+  <!-- Primary Page Layout -->
+  <div class="container">
+    <div class="column">
+      <!--
 
           ## Getting Started with LittleLink
 
@@ -82,20 +95,19 @@
           Edit the "Short Bio" section tell users about yourself or your brand.
         -->
 
-            <!-- Your Image Here -->
-            <img alt="Profile Picture" class="avatar avatar--rounded" src="images/avatar.jpg"
-                srcset="images/avatar.jpg">
+      <!-- Your Image Here -->
+      <img alt="Profile Picture" class="avatar avatar--rounded" src="images/avatar.jpg" srcset="images/avatar.jpg">
 
-            <!-- Replace with your name or brand -->
-            <h1>
-                <div>Oliver Nemec</div>
-            </h1>
-            <!-- Short Bio -->
-            <p>🐶 Software Engineer II @ <a href="https://www.datadoghq.com/">Datadog</a><br>
-                🚀 Enterprise AI Platforms & Developer Productivity<br>
-                🖥️ B.S. in CS (AI/ML), Northeastern University<br>
-                💼 Distributed Systems, Cloud, LLMs<br></p>
-            <!--
+      <!-- Replace with your name or brand -->
+      <h1>
+        <div>Oliver Nemec</div>
+      </h1>
+      <!-- Short Bio -->
+      <p>🐶 Software Engineer II @ <a href="https://www.datadoghq.com/">Datadog</a><br>
+        🚀 Enterprise AI Platforms & Developer Productivity<br>
+        🖥️ B.S. in CS (AI/ML), Northeastern University<br>
+        💼 Distributed Systems, Cloud, LLMs<br></p>
+      <!--
 
           ## Breaking down <a> attributes:
 
@@ -119,27 +131,27 @@
           2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
           Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
         -->
-            <div class="button-stack" role="navigation">
-                <!-- Resume -->
-                <a class="button button-resume" href="./OliverNemec_Resume.pdf" rel="noopener" target="_blank"><img
-                        alt="Resume Icon" class="icon" src="images/icons/file.svg">Resume</a>
-                <!-- LinkedIn -->
-                <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" rel="noopener" role="button"
-                    target="_blank"><img alt="LinkedIn Logo" aria-hidden="true" class="icon"
-                        src="images/icons/linkedin.svg">LinkedIn</a>
+      <div class="button-stack" role="navigation">
+        <!-- Resume -->
+        <a class="button button-resume" href="./OliverNemec_Resume.pdf" rel="noopener" target="_blank"><img
+            alt="Resume Icon" class="icon" src="images/icons/file.svg">Resume</a>
+        <!-- LinkedIn -->
+        <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" rel="noopener" role="button"
+          target="_blank"><img alt="LinkedIn Logo" aria-hidden="true" class="icon"
+            src="images/icons/linkedin.svg">LinkedIn</a>
 
-                <!-- GitHub -->
-                <a class="button button-github" href="https://github.com/onemec" rel="noopener" role="button"
-                    target="_blank"><img alt="GitHub Logo" aria-hidden="true" class="icon"
-                        src="images/icons/github.svg">GitHub</a>
+        <!-- GitHub -->
+        <a class="button button-github" href="https://github.com/onemec" rel="noopener" role="button"
+          target="_blank"><img alt="GitHub Logo" aria-hidden="true" class="icon"
+            src="images/icons/github.svg">GitHub</a>
 
-                <!-- Generic Email -->
-                <a class="button button-default" href="mailto:oliver@onemec.org" rel="noopener" role="button"
-                    target="_blank"><img alt="Email Icon" aria-hidden="true" class="icon"
-                        src="images/icons/generic-email.svg">Email</a>
-            </div>
-        </div>
+        <!-- Generic Email -->
+        <a class="button button-default" href="mailto:oliver@onemec.org" rel="noopener" role="button"
+          target="_blank"><img alt="Email Icon" aria-hidden="true" class="icon"
+            src="images/icons/generic-email.svg">Email</a>
+      </div>
     </div>
+  </div>
 </body>
 
 </html>
