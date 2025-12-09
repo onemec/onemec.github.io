@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /resume.pdf
+Disallow: /OliverNemec_Resume.pdf
+
+Sitemap: https://onemec.org/sitemap.xml
