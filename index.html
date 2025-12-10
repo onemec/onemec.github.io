@@ -2,156 +2,260 @@
 <html class="theme-auto" lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-  <title>Oliver Nemec</title>
-  <link href="/images/favicon.png" rel="icon" type="image/x-icon"> <!-- Update this with your own favicon -->
+    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <title>Oliver Nemec</title>
+    <link href="/images/favicon.png" rel="icon" type="image/x-icon"> <!-- Update this with your own favicon -->
 
-  <!-- Meta Description - Write a description (150-160 characters recommended) -->
-  <meta content="Portfolio for Oliver Nemec." name="description">
+    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <meta content="Portfolio for Oliver Nemec." name="description">
 
-  <!-- Keywords -->
-  <meta content="Oliver Nemec, Software Engineer, Developer" name="keywords">
+    <!-- Keywords -->
+    <meta content="Oliver Nemec, Software Engineer, Developer" name="keywords">
 
-  <!-- Canonical URL - Helps prevent duplicate content issues -->
-  <meta href="https://onemec.org" rel="canonical">
+    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <meta href="https://onemec.org" rel="canonical">
 
-  <!-- Author Information -->
-  <meta content="Oliver Nemec" name="author">
+    <!-- Author Information -->
+    <meta content="Oliver Nemec" name="author">
 
-  <!-- Stylesheets -->
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/brands.css" rel="stylesheet">
+    <!-- Stylesheets -->
+    <style>
+        /*
+    * LittleLink Reset
+    * A minimal CSS reset for LittleLink
+    */
 
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "dateCreated": "2025-12-08T12:00:00-05:00",
-      "dateModified": "2025-12-08T12:00:00-05:00",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Oliver Nemec",
-        "givenName": "Oliver",
-        "familyName": "Nemec",
-        "alternateName": "onemec",
-        "identifier": "onemec",
-        "email": "oliver@onemec.org",
-        "jobTitle": "Software Engineer II",
-        "hasOccupation": {
-          "@type": "Occupation",
-          "name": "Software Engineer II"
-        },
-        "alumniOf": {
-          "@type": "EducationalOrganization",
-          "name": "Northeastern University"
-        },
-        "knowsAbout": [
-          "Distributed Systems",
-          "Cloud",
-          "Large Language Models",
-          "Enterprise AI Platforms",
-          "Developer Productivity"
-        ],
-        "description": "Software Engineer II @ Datadog. Enterprise AI Platforms & Developer Productivity. B.S. in CS (AI/ML), Northeastern University.",
-        "image": "https://onemec.org/images/avatar.jpg",
-        "sameAs": [
-          "https://www.linkedin.com/in/onemec/",
-          "https://github.com/onemec"
-        ],
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Datadog",
-          "url": "https://www.datadoghq.com/"
+        /* Box sizing rules */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
         }
-      }
-    }
+
+        /* Remove default margin */
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        figure,
+        blockquote,
+        dl,
+        dd {
+            margin: 0;
+        }
+
+        /* Remove list styles on ul, ol elements */
+        ul,
+        ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set core root defaults */
+        html:focus-within {
+            scroll-behavior: smooth;
+        }
+
+        /* Set core body defaults */
+        body {
+            min-height: 100vh;
+            text-rendering: optimizeSpeed;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Make images easier to work with */
+        img,
+        picture {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* Inherit fonts for inputs and buttons */
+        input,
+        button,
+        textarea,
+        select {
+            font: inherit;
+        }
+
+        /* Remove all animations and transitions for people that prefer not to see them */
+        @media (prefers-reduced-motion: reduce) {
+            html:focus-within {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* Modern focus styles */
+        :focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        :focus-visible {
+            outline: 2px solid #2457F5;
+            outline-offset: 2px;
+        }
+
+        /* Remove touch callout on iOS */
+        a {
+            -webkit-touch-callout: none;
+        }
+    </style>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/brands.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="css/brands.css" rel="stylesheet">
+    </noscript>
+    <link rel="preload"
+          href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2"
+          as="font" type="font/woff2" crossorigin>
+    <link rel="preload"
+          href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2"
+          as="font" type="font/woff2" crossorigin>
+
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "dateCreated": "2025-12-08T12:00:00-05:00",
+            "dateModified": "2025-12-08T12:00:00-05:00",
+            "mainEntity": {
+                "@type": "Person",
+                "name": "Oliver Nemec",
+                "givenName": "Oliver",
+                "familyName": "Nemec",
+                "alternateName": "onemec",
+                "identifier": "onemec",
+                "email": "oliver@onemec.org",
+                "jobTitle": "Software Engineer II",
+                "hasOccupation": {
+                    "@type": "Occupation",
+                    "name": "Software Engineer II"
+                },
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Northeastern University"
+                },
+                "knowsAbout": [
+                    "Distributed Systems",
+                    "Cloud",
+                    "Large Language Models",
+                    "Enterprise AI Platforms",
+                    "Developer Productivity"
+                ],
+                "description": "Software Engineer II @ Datadog. Enterprise AI Platforms & Developer Productivity. B.S. in CS (AI/ML), Northeastern University.",
+                "image": "https://onemec.org/images/avatar.jpg",
+                "sameAs": [
+                    "https://www.linkedin.com/in/onemec/",
+                    "https://github.com/onemec"
+                ],
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Datadog",
+                    "url": "https://www.datadoghq.com/"
+                }
+            }
+        }
     </script>
 </head>
 
 <body>
-  <!-- Primary Page Layout -->
-  <div class="container">
+<!-- Primary Page Layout -->
+<main class="container">
     <div class="column">
-      <!--
+        <!--
 
-          ## Getting Started with LittleLink
+            ## Getting Started with LittleLink
 
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+            This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
 
-          You can add your own brand or others brands you may need in the `css/brands.css` file.
+            You can add your own brand or others brands you may need in the `css/brands.css` file.
 
-          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+            You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
 
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+            Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
 
-          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+            Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
 
-          Edit the "Short Bio" section tell users about yourself or your brand.
-        -->
+            Edit the "Short Bio" section tell users about yourself or your brand.
+          -->
 
-      <!-- Your Image Here -->
-      <img alt="Profile Picture" class="avatar avatar--rounded" src="images/avatar.jpg" srcset="images/avatar.jpg">
+        <!-- Your Image Here -->
+        <img alt="Profile Picture" class="avatar avatar--rounded" src="images/avatar.jpg"
+             srcset="images/avatar-128.jpg 128w, images/avatar-256.jpg 256w, images/avatar.jpg 400w"
+             sizes="(max-width: 550px) 128px, 128px">
 
-      <!-- Replace with your name or brand -->
-      <h1>
-        <div>Oliver Nemec</div>
-      </h1>
-      <!-- Short Bio -->
-      <p>🐶 Software Engineer II @ <a href="https://www.datadoghq.com/">Datadog</a><br>
-        🚀 Enterprise AI Platforms & Developer Productivity<br>
-        🖥️ B.S. in CS (AI/ML), Northeastern University<br>
-        💼 Distributed Systems, Cloud, LLMs<br></p>
-      <!--
+        <!-- Replace with your name or brand -->
+        <h1>
+            <div>Oliver Nemec</div>
+        </h1>
+        <!-- Short Bio -->
+        <p>🐶 Software Engineer II @ <a href="https://www.datadoghq.com/">Datadog</a><br>
+            🚀 Enterprise AI Platforms & Developer Productivity<br>
+            🖥️ B.S. in CS (AI/ML), Northeastern University<br>
+            💼 Distributed Systems, Cloud, LLMs<br></p>
+        <!--
 
-          ## Breaking down <a> attributes:
+            ## Breaking down <a> attributes:
 
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+            1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+            The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+            If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
 
-          2.) Replace the # in href="#" with the desired target URL for the button.
+            2.) Replace the # in href="#" with the desired target URL for the button.
 
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+            3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
 
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+            4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+            This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
 
-          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
+            5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
 
-          ## Breaking down the <img> attributes:
+            ## Breaking down the <img> attributes:
 
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+            1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
 
-          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
-        -->
-      <div class="button-stack" role="navigation">
-        <!-- Resume -->
-        <a class="button button-resume" href="./OliverNemec_Resume.pdf" rel="noopener" target="_blank"><img
-            alt="Resume Icon" class="icon" src="images/icons/file.svg">Resume</a>
-        <!-- LinkedIn -->
-        <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" rel="noopener" role="button"
-          target="_blank"><img alt="LinkedIn Logo" aria-hidden="true" class="icon"
-            src="images/icons/linkedin.svg">LinkedIn</a>
+            2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
+            Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+          -->
+        <div class="button-stack" role="navigation">
+            <!-- Resume -->
+            <a class="button button-resume" href="./OliverNemec_Resume.pdf" rel="noopener" target="_blank"><img
+                    alt="Resume Icon" class="icon" src="images/icons/file.svg">Resume</a>
+            <!-- LinkedIn -->
+            <a class="button button-linked" href="https://www.linkedin.com/in/onemec/" rel="noopener" role="button"
+               target="_blank"><img alt="LinkedIn Logo" aria-hidden="true" class="icon"
+                                    src="images/icons/linkedin.svg">LinkedIn</a>
 
-        <!-- GitHub -->
-        <a class="button button-github" href="https://github.com/onemec" rel="noopener" role="button"
-          target="_blank"><img alt="GitHub Logo" aria-hidden="true" class="icon"
-            src="images/icons/github.svg">GitHub</a>
+            <!-- GitHub -->
+            <a class="button button-github" href="https://github.com/onemec" rel="noopener" role="button"
+               target="_blank"><img alt="GitHub Logo" aria-hidden="true" class="icon"
+                                    src="images/icons/github.svg">GitHub</a>
 
-        <!-- Generic Email -->
-        <a class="button button-default" href="mailto:oliver@onemec.org" rel="noopener" role="button"
-          target="_blank"><img alt="Email Icon" aria-hidden="true" class="icon"
-            src="images/icons/generic-email.svg">Email</a>
-      </div>
+            <!-- Generic Email -->
+            <a class="button button-default" href="mailto:oliver@onemec.org" rel="noopener" role="button"
+               target="_blank"><img alt="Email Icon" aria-hidden="true" class="icon"
+                                    src="images/icons/generic-email.svg">Email</a>
+        </div>
     </div>
-  </div>
+</main>
 </body>
 
 </html>
