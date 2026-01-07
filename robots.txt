@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /OliverNemec_Resume.pdf
+Allow: /
 
 Sitemap: https://onemec.org/sitemap.xml
